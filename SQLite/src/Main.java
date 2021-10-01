@@ -14,7 +14,7 @@ public class Main {
 			//SQLite 데이터베이스 파일에 연결
 			String dbFile = "myfirst.db";
 			con = DriverManager.getConnection("jdbc:sqlite:" + dbFile);
-			/*
+			
 			//데이터 조회
 			System.out.println("\n*** 데이터 조회 ***");
 			Statement stat1 = con.createStatement();
@@ -56,7 +56,6 @@ public class Main {
 				System.out.println("[Error] 데이터 수정 오류!");
 			}
 			stat3.close();
-			*/
 			
 			//데이터 삭제
 			System.out.println("\n*** 데이터 삭제 ***");
